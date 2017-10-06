@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #BEC0C2;
+  color: #505152;
 }
 
 h2 {
@@ -13,4 +13,8 @@ h2 {
 #contact {
   background-color: #FFDE7A;
   padding: 2%;
+}
+
+#let {
+
 }
