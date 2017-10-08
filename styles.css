@@ -25,9 +25,10 @@ h2 {
 header{
   background:#fff;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 nav{
-  float: right;
+  float: left;
   line-height: 70px;
 }
 
