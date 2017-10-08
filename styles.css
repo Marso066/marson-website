@@ -38,6 +38,21 @@ nav li{
   background: #f3f3f3;
   line-height: normal;
 }
+
+.content h2{
+  background: #FF4719;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.content article{
+  float: left;
+  width: 600px;
+}
+
+
+
 #contact {
   background-color: #D1A952;
   padding: 2%;
