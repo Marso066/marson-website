@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Courier New", sans-serif;
   color: darkgrey;
   background: #f3f3f3;
 
@@ -10,10 +10,11 @@ body {
 
 h1 {
   color: #4E4E4E;
+  font-size: "40";
 }
 
 h2 {
-  color: #C14040;
+  color: #4E4E4E;
 }
 
 .container{
@@ -41,7 +42,7 @@ nav li{
 }
 
 .content h2{
-  background: #FF4719;
+  background: #fff;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -50,11 +51,16 @@ nav li{
 .content article{
   float: left;
   width: 600px;
+  color: #1A1A1A;
+}
+
+.content ul{
+  color: #26A6B0
 }
 
 
 
 #contact {
-  background-color: #D1A952;
+  background-color: #A60101;
   padding: 2%;
 }
