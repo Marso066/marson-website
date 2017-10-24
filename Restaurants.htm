@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      Restaurant Example 3
+    </title>
+    <script type="text/javascript">
+//<![CDATA[
+    function createRestaurants()
+    {
+    //
+    var xmlData = document.getElementById("xmldata1");
+    var restz = xmlData.getElementsByTagName("Restaurant");
+    }
+    //
+    //
+    for (var i=0; i< restz.length; i++){
+    var currentCard = restz[i];
+
+    //
+    var newCard = document.createElement ("div");
+    newCard.setAttribute("className", "Restaurant");
+    newCard.setAttribute("class", "Restaurant");
+
+    //
+    var newName = document.createElement("div");
+    newName.setAttribute("className", "Name");
+    newName.setAttribute("class", "Name");
+    var nameStr = document.createTextNode(currentCard.getElementsByTagName("Name")[0].firstChild.data);
+    newName.appendChild(nameStr);
+    newCard.appendChild(newName);
+
+    //
+    var phones = currentCard.getElementsByTagName("phone");
+    var newPhone;
+    for (var j=0; j < phones.length; j++) {
+      newPhone = document.createElement("div");
+      newPhone.setAttribute("className", "phone");
+      newPhone.setAttribute("class", "phone");
+      var labelStr = currentCard.getElementsByTagName("phone")[j].getElementsByTagName("phone")[j].firstChild.data);
+      newPhone.appendChild(phoneStr);
+      newCard.appendChild(newPhone);
+    }
+
+    //
+    document.getElementsByTagName("body")[0].appendChild(newCard);
+    }
+    //}
+
+    window.addEventListener("load", createRestaurants);
+    //]]>
+    </script>
+    <link rel="stylesheet" href="restaurant.css" />
+  </head>
+  <body>
+    <xml id="xmldata1">
+      <Restaurants>
+        <Restaurant>
+
+      <Name>Manny's Steakhouse</Name>
+      <Phone>555-555-5555</Phone>
+
+      <Name>Pittsburg Blue</Name>
+      <Phone>8932084903284</Phone>
+
+      <Name>Libertine</Name>
+      <Phone>u432984892347</Phone>
+
+      <Name>Prohibition</Name>
+      <Phone>8742839473289</Phone> 
+
+      <
+  </Restaurant>
+</Restaurants>
+</xml>
+  </body>
+</html>
