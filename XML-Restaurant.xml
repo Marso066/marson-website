@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="XML-Restaurant_CSS2.css"?>
+<!DOCTYPE RestaurantCard [
+<!ELEMENT RestaurantCard (Name, Phone, Hours+, Addres, Email)>
+<!ELEMENT Name (#PCDATA)>
+<!ATTLIST Hours type (Weekday | Weekend) #REQUIRED>
+]>
+
+<RestaurantCards>
+  <RestaurantCard>
+    <Name>Manny's Steakhouse</Name>
+    <Phone>546.656.3457</Phone>
+    weekday<Hours type="Weekday">9 to 5 - its a way to make a livin</Hours>
+    <Hours type="Weekend">More hours if different</Hours>
+    <Addres> 123 placeholder street</Addres>
+    <Email>jfdksl@jfkdlsfj.com</Email>
+  </RestaurantCard>
+
+  <RestaurantCard>
+    <Name>Libertine</Name>
+    <Phone>546.656.3457</Phone>
+    <Hours type="Weekday">9 to 5 - its a way to make a livin</Hours>
+    <Hours type="Weekend">can put different hours here if needed</Hours>
+    <Addres> 123 placeholder street</Addres>
+    <Email>jfdksl@jfkdlsfj.com</Email>
+  </RestaurantCard>
+
+
+    <RestaurantCard>
+      <Name>Prohibition Bar</Name>
+      <Phone>546.656.3457</Phone>
+      <Hours type="Weekday">Can close eariler on weekdays</Hours>
+      <Hours type="Weekend">Stay open late - more drinks</Hours>
+      <Addres> 123 placeholder street</Addres>
+      <Email>jfdksl@jfkdlsfj.com</Email>
+    </RestaurantCard>
+
+    <RestaurantCard>
+      <Name>Pittsburg Blue</Name>
+      <Phone>546.656.3457</Phone>
+      <Hours type="Weekday">9 to 5</Hours>
+      <Hours type="Weekend">hourssss</Hours>
+      <Addres> 123 placeholder street</Addres>
+      <Email>jfdksl@jfkdlsfj.com</Email>
+    </RestaurantCard>
+  </RestaurantCards>
