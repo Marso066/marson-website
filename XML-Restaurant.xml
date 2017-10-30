@@ -9,38 +9,40 @@
 <RestaurantCards>
   <RestaurantCard>
     <Name>Manny's Steakhouse</Name>
-    <Phone>546.656.3457</Phone>
-    weekday<Hours type="Weekday">9 to 5 - its a way to make a livin</Hours>
-    <Hours type="Weekend">More hours if different</Hours>
-    <Addres> 123 placeholder street</Addres>
-    <Email>jfdksl@jfkdlsfj.com</Email>
+    <Phone>612-339-9900</Phone>
+    weekday<Hours type="Weekday">Breakfast from 6:30 a.m.<br />
+Lunch from 11:00 a.m.<br />
+Dinner from 4:00 p.m.</Hours>
+    <Hours type="Weekend">Same as weekday hours</Hours>
+    <Addres>825 Marquette Ave, Minneapolis MN, 55402</Addres>
+    <Email>dwilson@parasole.com</Email>
   </RestaurantCard>
 
   <RestaurantCard>
     <Name>Libertine</Name>
-    <Phone>546.656.3457</Phone>
-    <Hours type="Weekday">9 to 5 - its a way to make a livin</Hours>
-    <Hours type="Weekend">can put different hours here if needed</Hours>
-    <Addres> 123 placeholder street</Addres>
-    <Email>jfdksl@jfkdlsfj.com</Email>
+    <Phone>612.877.7263</Phone>
+    <Hours type="Weekday">Mon-Thur 4 pm – 10 pm</Hours>
+    <Hours type="Weekend">Fri 2 pm - 2 am <br /> Sat - Sun 10 am - 2 am</Hours>
+    <Addres>3001 Hennepin Ave. Uptown Mpls</Addres>
+    <Email>events@libertinempls.com</Email>
   </RestaurantCard>
 
 
     <RestaurantCard>
       <Name>Prohibition Bar</Name>
-      <Phone>546.656.3457</Phone>
-      <Hours type="Weekday">Can close eariler on weekdays</Hours>
-      <Hours type="Weekend">Stay open late - more drinks</Hours>
-      <Addres> 123 placeholder street</Addres>
-      <Email>jfdksl@jfkdlsfj.com</Email>
+      <Phone>(612) 215-3700</Phone>
+      <Hours type="Weekday">Mon-Thur 4 pm – 11 pm</Hours>
+      <Hours type="Weekend">Fri 4 pm - 2 am <br /> Sat - Sun 10 am - 2 am</Hours>
+      <Addres> 821 Marquette Avenue, Minneapolis, MN, 55402</Addres>
+      <Email>Prohibition@parasloe.com</Email>
     </RestaurantCard>
 
     <RestaurantCard>
       <Name>Pittsburg Blue</Name>
-      <Phone>546.656.3457</Phone>
-      <Hours type="Weekday">9 to 5</Hours>
-      <Hours type="Weekend">hourssss</Hours>
-      <Addres> 123 placeholder street</Addres>
-      <Email>jfdksl@jfkdlsfj.com</Email>
+      <Phone>763-416-2663</Phone>
+      <Hours type="Weekday">Mon - Thurs 11:00am-10:00pm</Hours>
+      <Hours type="Weekend">Fri - Sun 11:00am-11:00pm</Hours>
+      <Addres>The Galleria<br />3220 West 70th Street<br />Edina, MN 55435</Addres>
+      <Email>schaffee@parasole.com </Email>
     </RestaurantCard>
   </RestaurantCards>
